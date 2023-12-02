@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const email = params.get("email");
 
     // Realiza una solicitud GET para obtener detalles del contacto con el correo electrónico proporcionado
-    fetch(`https://contactos-backend-2x51.onrender.com/contactos/${encodeURIComponent(email)}`)
+    fetch(`https://contactos-backend-2f1e8da37e9f.herokuapp.com/contactos/${encodeURIComponent(email)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Error al obtener detalles del contacto. Código de estado: ${response.status}`);

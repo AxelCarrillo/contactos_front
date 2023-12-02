@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const telefono = document.getElementById("telefono").value;
 
         try {
-            const response = await fetch("https://contactos-backend-2x51.onrender.com/contactos", {
+            const response = await fetch("https://contactos-backend-2f1e8da37e9f.herokuapp.com/contactos", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
